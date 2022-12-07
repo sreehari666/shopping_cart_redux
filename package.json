@@ -1,0 +1,36 @@
+{
+  "name": "shopping_cart_redux",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-navigation/stack": "^6.3.7",
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.18.2",
+    "react-native-vector-icons": "^9.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/runtime": "^7.20.6",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.29.0",
+    "jest": "^29.3.1",
+    "metro-react-native-babel-preset": "^0.73.4",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
